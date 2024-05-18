@@ -3,65 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <title>TP N°3 - Reinoso Luciano</title>
-
-	<style>
-        .texto-grueso {
-            font-weight: bold; 
-        }
-        
-        header {
-        	background-color: #FE7458;
-        }
-        
-        body {
-            background-color: #33C1EF; 
-       	}
-       	
-       	main{
-       		background-color: #F9F77C;
-       	}
-       	
-       	aside {
-       		background-color: #F9F77C;
-       	}
-       	
-       	footer {
-       		background-color: #F9F77C;
-       	}
-       	
-       	table {
-        width: 50%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-        align-items: center;
-	    }
-	
-	    th, td {
-	        border: 1px solid #ddd;
-	        padding: 8px;
-	        text-align: left;
-	    }
-	
-	    th {
-	        background-color: #F9BE7C;
-	    }
-	
-	    tr {
-	        background-color: #FFFFFF;
-	    }
-    </style>
-
-
+<link rel="stylesheet" href="css/styles.css"></link>
 </head>
 <body>
 <header>
-<h1>Indice</h1>
-        <nav>
-            <ol>
+        <nav class="nav">
+            <ul class="navbar">
                 <li><a href="#seccion1">Spring Tool Suite (STS)</a></li>
                 <li><a href="#seccion2">Programación Visual</a></li>
                 <li><a href="#seccion3">Java</a></li>
-            </ol>
+                <li><a href="formulario">Formulario</a></li>
+            </ul>
         </nav>
 </header>
 
@@ -74,7 +26,7 @@
             	<li><a href="#IntegracionSTS">Integración con otros frameworks</a></li> 
             </ul>
             
-            <a><img src=img/STSLogo.png alt="LogoSTS"></a>
+            <a><img src=img/STSLogo.png alt="LogoSTS" class="imagen1"></a>
             
             <section id="DescripcionSTS">
             <h3 style="Color: black; font-size: 24px;" class="texto-grueso">Descripcion</h3>
@@ -102,7 +54,7 @@
             </ul>
         </section>
         
-        <a><img src="img/PVimg.jpg" alt="PVilustracion"></a>
+        <a><img src="img/PVimg.jpg" alt="PVilustracion" id="imagen-dos"></a>
         
         <section id="ConceptoPV">
         <h3 style="Color: black; font-size: 24px;" class="texto-grueso">Concepto</h3>
@@ -127,7 +79,7 @@
                 <li><a href="#EcosistemaJAVA">Ecosistema</a></li>
             </ul>
             
-        <a><img src="img/JAVAlogo.jpg" alt="LogoJAVA"></a>
+        <a><img src="img/JAVAlogo.jpg" alt="LogoJAVA" id="imagen3"></a>
             
         <section id="DescripcionJAVA">
         <h3 style="Color: black; font-size: 24px;" class="texto-grueso">Descripcion</h3>
@@ -165,8 +117,6 @@
         <h3 style="Color: black; font-size: 24px;" class="texto-grueso">Ecosistema</h3>
         <p style="text-align: left; Color: red; font-size: 18px;" class="texto-grueso">Java cuenta con un amplio ecosistema de herramientas y frameworks, como Spring Framework, Hibernate, Apache Struts, entre otros, que facilitan el desarrollo de aplicaciones Java.</p>
         </section>
-            
-            
         </section>
 </main>
 
