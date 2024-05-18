@@ -6,7 +6,7 @@ body {
     background-color: #F9F77C;
 }
 
-header {
+#header {
     background-color: #333;
     padding: 10px 0;
 }
@@ -44,7 +44,7 @@ header {
     color: #fff;
 }
 
-main {
+.main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -100,7 +100,7 @@ p {
     margin-bottom: 20px;
 }
 
-.imagen1, #imagen-dos, #imagen3 {
+.imagen1, .imagen2, .imagen3 {
     width: 100%;
     max-width: 300px;
     display: block;
@@ -129,7 +129,7 @@ td {
     text-align: left;
 }
 
-aside {
+.aside {
     background-color: #f9f9f9;
     padding: 20px;
     margin: 20px auto;
@@ -137,7 +137,7 @@ aside {
    
 }
 
-aside h2 {
+.aside h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 15px;
@@ -145,7 +145,7 @@ aside h2 {
     padding-bottom: 10px;
 }
 
-aside a {
+.aside a {
     display: block;
     color: #0066cc;
     text-decoration: none;
@@ -156,11 +156,11 @@ aside a {
     border-radius: 4px;
 }
 
-aside a:hover {
+.aside a:hover {
     background-color: #d4d4d4;
 }
 
-footer {
+#footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -169,29 +169,41 @@ footer {
     margin-top: 40px;
 }
 
-footer p {
+#footer p {
     margin: 10px 0;
     color: white;
 }
 
-footer ul {
+#footer ul {
     list-style-type: none;
     padding: 0;
     margin: 10px 0;
 }
 
-footer ul li {
+#footer ul li {
     display: inline;
     margin: 0 10px;
 }
 
-footer ul li a {
-    color: #ccc;
+.enlaceFace{
+	color: #ccc;
     text-decoration: none;
     font-weight: bold;
 }
 
-footer ul li a:hover {
+.enlaceX{
+	color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaceIg{
+	color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer ul li a:hover {
     text-decoration: underline;
     color: #fff;
 }

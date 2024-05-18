@@ -7,7 +7,7 @@
 	</head>
 
 	<body>
-		<header>
+		<header id="header">
 			<nav class="nav">
 	            <ul class="navbar">
 	                <li><a href="index">Volver a menu de inicio</a></li>
@@ -15,7 +15,7 @@
 	        </nav>
 		</header>
 
-		<main>
+		<main class="main">
 			<h1>Formulario</h1>
 			<form>
 				<label for="DNI">DNI: </label>
@@ -32,20 +32,20 @@
 				
 				<div>
 					<label for="generoMasc">Masculino: </label>
-					<input id="generoMasc" type="radio" value="Masculino" name="genero" required></input><br>
+					<input id="generoMasc" type="radio" value="Masculino" name="genero"></input><br>
 					
 					<label for="generoFem">Femenino: </label>
-					<input id="generoFem" type="radio" value="Femenino" name="genero" required></input><br>
+					<input id="generoFem" type="radio" value="Femenino" name="genero"></input><br>
 					
 					<label for="generoX">X: </label>
-					<input id="generoX" type="radio" value="X" name="genero" required></input><br>
+					<input id="generoX" type="radio" value="X" name="genero"></input><br>
 				</div>
 				
 				<label for="correoElectronico">Correo Electronico: </label>
 				<input id="correoElectronico" type="email" name="correoElectronico" required placeholder="Ingrese su correo electronico"></input><br>
 				
 				<label for="domicilio">Domicilio: </label>
-				<input id="domicilio" type="text" name="domicilio" placeholder="Ingrese su fecha de nacimiento"></input><br>
+				<input id="domicilio" type="text" name="domicilio" required placeholder="Ingrese su fecha de nacimiento"></input><br>
 				
 				<label for="provincia">provincia: </label>
 				<select id="provincia" name="provincia" required>
@@ -57,18 +57,18 @@
 				</select>
 				
 				<label for="celular">Celular: </label>
-				<input id="celular" type="number" name="celular" required placeholder="Ingrese su numero de celular"></input><br>
+				<input id="celular" type="number" name="celular" placeholder="Ingrese su numero de celular"></input><br>
 				
 				<label>Categorias de interes: </label>
 				<div>
 					<label for="InteresFutbol">Futbol:</label>
-					<input id="InteresFutbol" type="checkbox" name="interes" required></input><br>
+					<input id="InteresFutbol" type="checkbox" name="InteresFutbol"></input><br>
 					
 					<label for="InteresTurismo">Turismo:</label>
-					<input id="InteresTurismo" type="checkbox" name="interes" required></input><br>
+					<input id="InteresTurismo" type="checkbox" name="InteresTurismo"></input><br>
 					
 					<label for="InteresGastronomia">Gastronomia:</label>
-					<input id="InteresGastronomia" type="checkbox" name="interes" required></input><br>
+					<input id="InteresGastronomia" type="checkbox" name="InteresGastronomia"></input><br>
 				</div>
 				
 				<label for="sugerencia">Sugerencias:</label>
@@ -92,14 +92,14 @@
 		</main>
 		
 		
-		<footer>
+		<footer id="footer">
 			<p>© 2024 Mi Sitio Web.</p>
 			<p>Correo Electrónico: EjemploUsuario@gmail.com</p>
 	        <p>Redes Sociales:</p>
 	        <ul>
-	            <li><a href="https://www.facebook.com/">Facebook</a></li>
-	            <li><a href="https://twitter.com/">Twitter</a></li>
-	            <li><a href="https://www.instagram.com/">Instagram</a></li>
+	            <li><a class="enlaceFace" href="https://www.facebook.com/">Facebook</a></li>
+	            <li><a class="enlaceX" href="https://twitter.com/">Twitter</a></li>
+	            <li><a class="enlaceIg" href="https://www.instagram.com/">Instagram</a></li>
 	        </ul>
 		</footer>
 	</body>
